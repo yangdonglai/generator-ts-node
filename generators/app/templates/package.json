@@ -1,0 +1,34 @@
+{
+  "name": "<%= projectName %>",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "browser": "dist/bundle.js",
+  "module": "dist-es/index.js",
+  "files": [
+    "dist", 
+    "dist-es", 
+    "src",
+    "types"
+  ],
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "gulp build",
+    "prepublish": "npm run build"
+  },
+  "author": "yangdonglai",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^3.2.4",
+    "merge2": "^1.2.2",
+    "rollup": "^0.58.2",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-plugin-uglify": "^3.0.0",
+    "typescript": "^2.6.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "classic",
+    "target": "es6",
+    "lib": ["es2017"],
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": ["generators/**/*.ts"],
+  "filesGlob": ["**/*.ts", "!node_modules/**"],
+  "exclude": ["node_modules"]
+}
